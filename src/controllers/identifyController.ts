@@ -1,6 +1,6 @@
 import type { Request, Response } from 'express';
-import * as identityService from '../services/identityService.js';
-import type { IdentifyRequest } from '../types/contactTypes.js';
+import * as identityService from '../services/identityService';
+import type { IdentifyRequest } from '../types/contactTypes';
 
 export const identify = async (req: Request, res: Response) => {
     try {

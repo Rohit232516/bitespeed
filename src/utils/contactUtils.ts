@@ -1,4 +1,4 @@
-import type { Contact, ConsolidatedContact } from '../types/contactTypes.js';
+import type { Contact, ConsolidatedContact } from '../types/contactTypes';
 
 export const formatConsolidatedContact = (primary: Contact, secondaries: Contact[]): ConsolidatedContact => {
     const emails = new Set<string>();

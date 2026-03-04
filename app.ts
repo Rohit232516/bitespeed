@@ -1,5 +1,5 @@
 import express from 'express';
-import identifyRoutes from './src/routes/identifyRoutes.js';
+import identifyRoutes from './src/routes/identifyRoutes';
 
 const app = express();
 

@@ -1,6 +1,6 @@
-import * as contactQueries from '../queries/contactQueries.js';
-import type { Contact, IdentifyResponse } from '../types/contactTypes.js';
-import { formatConsolidatedContact } from '../utils/contactUtils.js';
+import * as contactQueries from '../queries/contactQueries';
+import type { Contact, IdentifyResponse } from '../types/contactTypes';
+import { formatConsolidatedContact } from '../utils/contactUtils';
 
 export const identifyContact = async (email: string | null, phoneNumber: string | null): Promise<IdentifyResponse> => {
     // 1. Find existing contacts matching email or phone
