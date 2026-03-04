@@ -1,5 +1,7 @@
+import dotenv from 'dotenv';
+dotenv.config();
 import express from 'express';
-import identifyRoutes from './src/routes/identifyRoutes';
+import identifyRoutes from './src/routes/identifyRoutes.js';
 
 const app = express();
 

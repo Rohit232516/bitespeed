@@ -1,5 +1,5 @@
-import { query } from '../db/db';
-import type { Contact } from '../types/contactTypes';
+import { query } from '../db/db.js';
+import type { Contact } from '../types/contactTypes.js';
 
 export const findContactsByEmailOrPhone = async (email: string | null, phoneNumber: string | null): Promise<Contact[]> => {
   const sql = `
